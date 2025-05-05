@@ -45,5 +45,6 @@ function calculateMultiplication() {
   }
 
   // Show result
-  document.getElementById("result").textContent = additionText + " = " + result
+  document.getElementById("result").innerHTML =
+      '<p>The number is</p>' + result
 }
